@@ -1,9 +1,10 @@
-# thoughtful-technical-screen
+# Thoughtful Technical Screen
 Technical Screen for Thoughtful Full Stack role for Patrick Armentrout.
 
-This solution is built as an Express App with TypeScript. It includes API and unit tests to ensure accuracy.
+This solution is built as an express App with TypeScript. It includes Jest API and unit tests to ensure accuracy.
 
 ## Prerequisites
+- npm
 - Node.js >= 20
 
 ## Getting Started
