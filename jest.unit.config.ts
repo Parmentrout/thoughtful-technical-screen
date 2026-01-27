@@ -5,7 +5,6 @@ const config: Config = {
   testEnvironment: 'node',
   clearMocks: true,
 
-  // Unit tests live next to code
   testMatch: ['**/src/**/*.unit.test.ts']
 };
 
