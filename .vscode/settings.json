@@ -1,0 +1,26 @@
+{
+  "files.exclude": {
+    "**/dist": true,
+    "**/*.js": true,
+    "**/*.js.map": true,
+    "**/*d.ts": true,
+    "**/*d.ts.map": true,
+  },
+
+  // Don't search build output
+  "search.exclude": {
+    "**/dist": true
+  },
+
+  // Prefer clean TS imports
+  "typescript.preferences.importModuleSpecifier": "relative",
+  "typescript.preferences.importModuleSpecifierEnding": "minimal",
+
+  // Use workspace TS version
+  "typescript.tsdk": "node_modules/typescript/lib",
+
+  // Reduce noise in small script repos
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": true
+  }
+}
