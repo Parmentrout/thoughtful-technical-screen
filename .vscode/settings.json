@@ -21,6 +21,6 @@
 
   // Reduce noise in small script repos
   "editor.codeActionsOnSave": {
-    "source.organizeImports": true
+    "source.organizeImports": "explicit"
   }
 }

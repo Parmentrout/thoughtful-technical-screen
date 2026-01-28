@@ -41,3 +41,15 @@ PASS  src/sort.unit.test.ts
     ✓ returns SPECIAL for heavy packages
     ✓ returns REJECTED for bulky and heavy packages
 ```
+
+# UI
+
+There is a test UI attached to the project, with the node server above running
+you can start the UI using:
+
+```
+cd thoughtful-ui
+npm run start
+```
+
+Then navigate to http://localhost:4200/

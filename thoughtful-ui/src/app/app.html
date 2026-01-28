@@ -1,0 +1,58 @@
+<div class="min-h-screen bg-gray-100 flex items-center justify-center">
+  <div class="bg-white p-6 rounded-lg shadow-md w-full max-w-md">
+    <h1 class="text-2xl font-bold mb-4">Stack Calculator</h1>
+
+    <form (ngSubmit)="submit()" class="space-y-4">
+      <div>
+        <label class="block text-sm font-medium mb-1">Width</label>
+        <input
+          type="number"
+          [(ngModel)]="width"
+          name="width"
+          class="w-full border rounded px-3 py-2"
+          required
+        />
+      </div>
+
+      <div>
+        <label class="block text-sm font-medium mb-1">Length</label>
+        <input
+          type="number"
+          [(ngModel)]="length"
+          name="length"
+          class="w-full border rounded px-3 py-2"
+          required
+        />
+      </div>
+
+      <div>
+        <label class="block text-sm font-medium mb-1">Height</label>
+        <input
+          type="number"
+          [(ngModel)]="height"
+          name="height"
+          class="w-full border rounded px-3 py-2"
+          required
+        />
+      </div>
+
+      <div>
+        <label class="block text-sm font-medium mb-1">Mass</label>
+        <input
+          type="number"
+          [(ngModel)]="mass"
+          name="mass"
+          class="w-full border rounded px-3 py-2"
+          required
+        />
+      </div>
+
+      <button
+        type="submit"
+        class="w-full bg-blue-600 text-white py-2 rounded hover:bg-blue-700"
+      >
+        Calculate
+      </button>
+    </form>
+  </div>
+</div>
